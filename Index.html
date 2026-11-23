@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>ProVol_Shop</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <header>
+        <h1>ProVolt_Shop</h1>
+        <input id="search" placeholder="Rechercher...">
+        <button onclick="openCart()">Pqnier</button>
+    </header>
+    <section class="dollars">
+        <h2>Bienvenue chez ProVol_Shop</h2>
+        <p>Découvrez Nos produits et promotions</p>
+        <button onclick="ScrollToProducts()">
+            Découvrir
+        </button>
+    </section>
+    <section id="products"></section>
+    <div id="CartPanel">
+        <h2>:Mon panier</h2>
+        <div id="cartelTems"></div>
+        <p>Total : <span id="CartelTotal">0</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
